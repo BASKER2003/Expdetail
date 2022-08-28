@@ -1,0 +1,65 @@
+#ti
+{
+    border:1px solid black;
+    background-color:#2e1daf;
+}
+
+#i1
+{
+    position:absolute;
+    top:15%;
+    left:0.5%;
+    background-color: #1daf94e3;
+    border:1px solid black;
+}
+#i2
+{
+    position:absolute;
+    top:15%;
+    left:30%;
+    background-color: #1daf1d;
+    border:1px solid black;
+}
+#i3
+{
+    position:absolute;
+    top:15%;
+    right:0.5%;
+    background-color: #1d81af;
+    border:1px solid black;
+}
+#foo
+{
+    position:absolute;
+    top:82%;
+    background-color: #2e1daf;
+    border:1px solid black;
+}
+#d1
+{
+    text-align: center;
+    font-size: 24px;
+}
+#in1
+{
+    text-align: center;
+}
+#bd1
+{
+      background-color: black;
+}
+a:hover
+{
+  color:red;
+}
+
+#r
+{
+    clear:both
+}
+
+#c
+{
+    width: 50%;
+    float: left;
+}
