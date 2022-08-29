@@ -1,0 +1,64 @@
+#one
+{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width:100%;
+    background-color:brown;
+    font-size: 23px;
+}
+#two
+{
+    top: 20%;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width:25%;
+    background-color:limegreen;    
+    float: left;  
+}
+#three
+{
+    top: 20%;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width:50%;
+    background-color:orange;
+    float: left;
+}
+#four
+{
+    top: 20%;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width:25%;
+    background-color: hotpink;
+    float: left;
+}
+
+#five
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width:100%;   
+    background-color:blue;
+    font-size: 23px;
+}
+a:hover
+{
+  color:red;
+}
+#r
+{
+    clear:both
+}
+#c
+{
+    width: 50%;
+    float: left;
+}
