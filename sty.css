@@ -1,3 +1,7 @@
+#bd
+{
+    background-color:purple;
+}
 #one
 {
    display: flex;
@@ -5,7 +9,7 @@
     justify-content: center;
     height: 75px;
     width:100%;
-    background-color:brown;
+    background-color:orange;
     font-size: 23px;
 }
 #two
@@ -25,7 +29,7 @@
     justify-content: center;
     height: 600px;
     width:50%;
-    background-color:orange;
+    background-color:white;
     float: left;
 }
 #four
@@ -35,7 +39,7 @@
     justify-content: center;
     height: 600px;
     width:25%;
-    background-color: hotpink;
+    background-color: skyblue;
     float: left;
 }
 
@@ -46,7 +50,7 @@
     justify-content: center;
     height: 60px;
     width:100%;   
-    background-color:blue;
+    background-color:yellow;
     font-size: 23px;
 }
 a:hover
