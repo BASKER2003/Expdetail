@@ -1,6 +1,6 @@
-#bd
+#bg
 {
-    background-color:purple;
+  background-color: blueviolet;    
 }
 #one
 {
@@ -39,7 +39,7 @@
     justify-content: center;
     height: 600px;
     width:25%;
-    background-color: skyblue;
+    background-color:skyblue;
     float: left;
 }
 
@@ -53,9 +53,17 @@
     background-color:yellow;
     font-size: 23px;
 }
-a:hover
+a:visited 
 {
-  color:red;
+    color: black;
+}
+a:hover 
+{
+    color: red;
+}  
+a:active 
+{
+    color: yellow;
 }
 #r
 {
@@ -65,4 +73,101 @@ a:hover
 {
     width: 50%;
     float: left;
+}
+#list
+{
+    display: none;
+}
+#list:target
+{
+    display: block;
+}
+#table
+{
+    display: none;
+}
+#table:target
+{
+    display: block;
+}
+#hotspot
+{
+    display: none;
+}
+#hotspot:target
+{
+    display: block;
+}
+#audio
+{
+    text-align :center;
+    display: none;
+}
+#audio:target
+{
+    display: block;
+}
+#video
+{
+    display: none;
+}
+#video:target
+{
+    display: block;
+}
+#mercury
+{
+    display: none;
+}
+#mercury:target
+{
+    display: block;
+}
+#lit
+{
+    display: none;
+}
+#lit:target
+{
+    display: block;
+}
+#olt
+{
+    display: none;
+}
+#olt:target
+{
+    display: block;
+}
+#ult
+{
+    display: none;
+}
+#ult:target
+{
+    display: block;
+}
+#dlt
+{
+    display: none;
+}
+#dlt:target
+{
+    display: block;
+}
+#dtt
+{
+    display: none;
+}
+#dtt:target
+{
+    display: block;
+}
+#ddt
+{
+    display: none;
+}
+#ddt:target
+{
+    display: block;
 }
