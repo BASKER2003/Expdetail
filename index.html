@@ -1,16 +1,32 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="sty.css">
+
+    <style>
+        table,th,td
+        {
+          margin-top: 3%;  
+          border: 1px solid black;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    </style>
+
 </head>
 
-<body id = "bd">
+<body id="bg">
+
     <div id="one">WEB TECHNOLOGY EXPERIMENTS</div>
+
     <div id="two">
         
     <h1> EXPERIMENTS </h1>
@@ -20,38 +36,364 @@
             Experiment-1
         </summary>
         <ul>
-        <a href="list.html" target="f1">
+        <a href="#list">
             <li>List</li>
         </a>
         </ul>
         <ul>
-        <a href="table.html" target="f1">
+        <a href="#table">
             <li>Table</li>
         </a>
         </ul>
         <ul>
-        <a href="hotspot.html" target="f1">
+        <a href="#hotspot">
             <li>Hotspot</li>
         </a>
         </ul>
         <ul>
-        <a href="audio.html" target="f1">
+        <a href="#audio">
             <li>Audio</li>
         </a>
         </ul>
         <ul>
-        <a href="video.html" target="f1">
+        <a href="#video">
             <li>Video</li>
         </a>
         </ul>
     </details>
+
     </div>
-    <div id ="three">
-        <iframe name ="f1" style="height: 600px; width: 100% ; border: none;"   ></iframe>
-    </div>
+
+    <div id="three">
+        <div id="list"> 
+    
+            <table>
+                <tr>  
+                  <td><a href="#lit">&lt;li&gt;</a></td>
+                  <td><a href="#olt">&lt;ol&gt;</a></td>
+                  <td><a href="#ult">&lt;ul&gt;</a></td>
+                  <td><a href="#dlt">&lt;dl&gt;</a></td>
+                  <td><a href="#dtt">&lt;dt&gt;</a></td>
+                  <td><a href="#ddt">&lt;dd&gt;</a></td>
+                </tr>
+              </table>
+        
+              <hr width="90%" size="5" color="black" />
+               
+              <div id="r">
+                <div id="c">
+                    <h2>Indoor Games</h2>
+                    <ul>
+                        <li>Chess</li>
+                        <li>Carrom</li>
+                        <li>Cards</li>
+                        <li>TableTennis</li>
+                        <li>Squash</li>
+                        <li>Badminton</li>
+                        <li>Boxing</li>
+                    </ul>
+                </div>
+                <div id="c">
+                    <h2>Outdoor Games</h2>
+                    <ol>
+                        <li>Cricket</li>
+                        <li>Football</li>
+                        <li>Volleyball</li>
+                        <li>Basketball</li>
+                        <li>Baseball</li>
+                        <li>Golf</li>
+                        <li>Tennis</li>
+                    </ol>
+                </div>
+            </div>
+        
+              <hr width="90%" size="5" color="black" />
+        
+            <dl>
+              <dt><Strong>Indoor</Strong></dt>
+              <dd>- Those games which are played in the closed environment, they are called as indoor games.
+                Indoor games are played in homes, hotels, Malls, party halls etc.
+                It includes games such as table tennis, video games, Wrestling etc.
+                </dd>
+        
+                <hr width="90%" size="5" color="black" />
+        
+              <dt><Strong>Outdoor</Strong></dt>
+              <dd>- Those games which are played in an open environment, such games are termed as outdoor games.
+                Out door games are played in the stadium which are game specific.
+                Football is played in the foot ball court, basketball in basket ball court etc.
+                </dd>
+            </dl>
+        
+            <hr width="90%" size="5" color="black" />
+           
+         </div>
+            
+        <div id="table"> 
+
+         <table>
+            <tr>  
+              <td ><a href="#tablet">&lt;table&gt;</a></td>
+              <td ><a href="#trt">&lt;tr&gt;</a></td>
+              <td ><a href="#tdt">&lt;td&gt;</a></td>
+              <td ><a href="#tht">&lt;th&gt;</a></td>
+            </tr>
+          </table>
+    
+          <hr width="90%" size="5" color="black" />
+    
+        <h2>Example of Table Rowspan</h2>
+        <table cellpadding="10">
+            <tr>
+                <th rowspan="4">Users Info</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+        </table>
+    
+        <hr width="90%" size="5" color="black" />
+    
+        <h2>Example of Table Colspan</h2>
+        <table cellpadding="10">
+            <tr>
+                <th colspan="3">Users Info</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+        </table>
+    
+        <hr width="90%" size="5" color="black" />
+
+       </div>
+
+       <div id="hotspot">   
+
+    <table>
+        <tr>  
+          <td ><a href="#imgt">&lt;img&gt;</a></td>
+          <td ><a href="#mapt">&lt;map&gt;</a></td>
+          <td ><a href="#areat">&lt;area&gt;</a></td>
+        </tr>
+      </table>
+
+      <hr width="90%" size="5" color="black" />
+
+    <img src="solar.jpg" alt="Solar System" usemap="#solarmap" width="100%" height="450" >
+
+    <p>
+        This figure represents the solar system click on each planets to know some facts about them.
+    </p>
+
+   <map name="solarmap">
+     <area shape="rect" coords="71,87,131,117" alt="Mercury" href="#mercury">
+     <area shape="rect" coords="110,129,188,166" alt="Venus" href="#venus">
+     <area shape="rect" coords="148,177,268,236" alt="Earth" href="#earth">
+     <area shape="rect" coords="250,200,338,292" alt="Mars" href="#mars">
+     <area shape="rect" coords="308,250,408,317" alt="Jupiter" href="#jupiter">
+     <area shape="rect" coords="355,189,435,228" alt="Saturn" href="#saturn">
+     <area shape="rect" coords="201,202,2" alt="Uranus" href="#uranus">
+     <area shape="rect" coords="201,202,2" alt="Neptune" href="#neptune">
+   </map>
+          
+     </div>  
+
+     <div id="mercury">
+
+        <h1>Mercury</h1>
+    
+        <h2>Facts about Mercury</h2>
+           <p>
+            <ul>
+            <li>Mercury does not have any moons or rings.</li>
+            <li>Mercury is the smallest planet.</li>
+            <li>Mercury is the closest planet to the Sun.</li>
+            <li>Your weight on Mercury would be 38% of your weight on Earth.</li>
+            <li>A solar day on the surface of Mercury lasts 176 Earth days.</li>
+            <li>A year on Mercury takes 88 Earth days.</li>
+            <li>It's not known who discovered Mercury.</li> 
+            </ul>
+        </p>  
+        
+        </div>
+     
+     <div id="audio">
+
+        <table>
+            <tr>  
+              <td ><a href="#audiot">&lt;audio&gt;</a></td>
+            </tr>
+          </table>
+    
+          <hr width="90%" size="5" color="black" />
+    
+    <img src="adhm.jpg" alt="Ae Dil Hai Mushkil" width="100%" height="400px">
+    
+    <p style="text-align:center"><strong>Click on the play button to play the music</strong></p>
+    
+    <audio controls>
+      <source src="ADHM.mp3" type="audio/mp3">
+    </audio>
+
+     </div>
+
+      <div id="video">
+ 
+        <table>
+            <tr>  
+              <td ><a href="#videot">&lt;video&gt;</a></td>
+            </tr>
+          </table>
+    
+          <hr width="90%" size="5" color="black" />
+    
+          <p style="text-align:center"><strong>Click on the play button to play the video song</strong></p>
+    
+           <video width="100%" height="440px" controls>
+            <source src="Kuttystory.mp4" type="video/mp4">
+          </video>
+
+      </div>
+
+</div>
+
+
     <div id ="four">
-        <iframe name ="f2" style="height: 600px; width: 100% ; border: none;"   ></iframe>
+         
+        <div id="lit">
+
+            <h1>Definition and Usage</h1>
+   
+            <p>
+               The &lt;li&gt; HTML element is used to represent an item in a list.<br /> 
+               <br />
+               It must be contained in a parent element: an ordered list (&lt;ol&gt;), an unordered list (&lt;ul&gt;), or a menu (&lt;menu&gt;).<br /> 
+               <br />
+               In menus and unordered lists, list items are usually displayed using bullet points. <br />
+               <br />
+               In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.
+             </p>
+
+        </div>
+
+        <div id="olt">
+
+            <h2>Definition and Usage</h2>
+
+            <p>
+            The &lt;ol&gt; HTML element represents an ordered list of items typically rendered as a numbered list.<br />
+                <br />
+              <Strong>Attribute Type:</Strong><br />
+               <br />
+                Sets the ordering type:<br />
+                <br />
+                a - for lowercase letters.<br />
+                A - for uppercase letters.<br />
+                i - for lowercase Roman numerals.<br />
+                I - for uppercase Roman numerals.<br />
+                1 - for numbers (default)<br />
+            </p>
+
+        </div>
+
+        <div id="ult">
+
+            <h2>Definition and Usage</h2>
+
+            <p>
+            The &lt;ul&gt; HTML element represents an unordered list of items, typically rendered as a bulleted list.<br />
+             <br />
+        
+            <Strong>Attribute Type:</Strong><br />
+            <br />
+            Sets the ordering type:<br />
+                <br />
+                circle<br />
+                disc<br />
+                square<br />
+                <br />
+        
+            <h3>NOTE:</h3>    
+         
+            A fourth bullet type has been defined in the WebTV interface, but not all browsers support it:triangle<br />
+            </p>
+
+        </div>
+
+        <div id="dlt">
+
+            <h1>Definition and Usage</h1>
+
+    <p>
+        The &lt;dl&gt; HTML element represents a description list.<br />
+        <br />
+        This element encloses a list of groups of terms (specified using the &lt;dt&gt; element) and descriptions (provided by &lt;dd&gt; elements).<br />
+        <br /> 
+        Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).<br />
+        <br />
+    </p>
+        </div>
+
+        <div id="dtt">
+
+            
+    <h1>Definition and Usage</h1>
+
+    <p>
+        The &lt;dt&gt; HTML element specifies a term in a description or definition list, and as such must be used inside a &lt;dl&gt; element. <br />
+        <br />
+        It is usually followed by a &lt;dd&gt; element; <br />
+         <br />   
+        However, multiple &lt;dt&gt; elements in a row indicate several terms that are all defined by the immediate next &lt;dd&gt; element. <br />
+         <br />
+     </p>
+        </div>
+
+        <div id="ddt">
+
+            <h1>Definition and Usage</h1>
+    
+            <p>
+                The &lt;dd&gt; tag is used to describe a term/name in a description list.<br />
+                    <br /> 
+                The &lt;dd&gt; tag is used in conjunction with &lt;dl&gt; (defines a description list) and &lt;dt&gt; (defines terms/names). <br />
+                    <br />
+                Inside a &lt;dd&gt; tag you can put paragraphs, line breaks, images, links, lists, etc.<br />
+                    <br />
+            </p>
+        </div>
+
     </div>
-    <div id ="five"><strong>Copyright &copy; by Dev - 2003<strong></strong></div>
+
+
+    <div id ="five"><marquee><strong>Copyright &copy; by Code Fellas - 2003</strong></marquee></div>
+
 </body>
+
+
 </html>
